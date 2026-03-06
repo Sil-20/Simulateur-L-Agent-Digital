@@ -282,7 +282,7 @@ class HypothesesRelance:
 
 @dataclass
 class HypothesesAcquisition:
-    budget_pub: float = 1500.0
+    budget_pub: float = 1000.0
     cout_par_clic: float = 2.5
     taux_conversion_lp: float = 8.0      # %
     taux_qualification: float = 60.0     # %
